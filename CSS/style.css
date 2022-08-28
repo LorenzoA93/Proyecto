@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#header {
+    background-color: #6095ca;
+}
+.header__logo {
+    width: 80px;
+    height: auto;
+}
+#header .header__menu{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: inline;
+}
+#header .header__menu .menu__lista li{
+    display: inline;
+}
+#header .menu__lista li a{
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+#header .menu__lista li a:hover{
+    color: #000000;
+}
+.header__menu p{
+    text-align: end;
+    display: inline;
+}
+.diagrama{
+display: flex;
+justify-content: center;
+width: 100%;
+height: auto;
+}
+.nosotros{
+    text-align: center;
+}
+.nosotros h2{
+    color: #6095ca;
+    text-align: center;
+}
+.eleccion h2{
+    color: #6095ca;
+    text-align: center;
+}
+.servicios h2{
+    color: #6095ca;
+    text-align: center;
+}
+.ubicacion{
+    color: #6095ca;
+    text-align: center;
+}
+#footer{
+    background-color: #6095ca;    
+}
