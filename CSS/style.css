@@ -4,60 +4,344 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-#header {
-    background-color: #6095ca;
+.header {
+    background: linear-gradient(#198754,#0d6efd);
+    width: 100vw;
 }
 .header__logo {
     width: 80px;
     height: auto;
 }
-#header .header__menu{
+.header__referencia a{
     color: #ffffff;
-    font-family: sans-serif;
     text-decoration: none;
-    display: inline;
 }
-#header .header__menu .menu__lista li{
-    display: inline;
-}
-#header .menu__lista li a{
-    color: #ffffff;
-    list-style-type: none;
-    text-decoration: none;
-
-}
-#header .menu__lista li a:hover{
+.header__referencia a:hover{
     color: #000000;
 }
-.header__menu p{
-    text-align: end;
-    display: inline;
+.header__menu .header__menu__lista{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-bottom: 0;
 }
+.header__menu .header__menu__lista__item{
+    flex: 1 1 0;
+    list-style: none;
+}
+
+.header__menu__lista a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+}
+.header__menu__lista a:hover{
+    color: #000000;
+    background-color: #7faad4;
+}
+.footer{
+    background-color: #6095ca;    
+}
+/* index */
 .diagrama{
-display: flex;
-justify-content: center;
 width: 100%;
 height: auto;
 }
-.nosotros{
+.main{
     text-align: center;
 }
-.nosotros h2{
-    color: #6095ca;
-    text-align: center;
+.main__diagrama__imagen{
+    width: 100vw;
 }
-.eleccion h2{
-    color: #6095ca;
-    text-align: center;
+.main__nosotros{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000000;
+    animation: 1s linear 0s 0;
 }
-.servicios h2{
+.main__nosotros__titulo{
+    color: #6095ca;
+}
+.main__nosotros__parrafo{
+    padding-top: 8px;
+}
+.eleccion{
+    padding: 20px;
+    margin: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.eleccion__img{
+    width: 100vw;
+}
+.eleccion__titulo{
     color: #6095ca;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.eleccion__motivos li{
+    padding-bottom: 8px;
+}
+.servicios{
+    padding: 20px;
+    margin: 20px;
+}
+.servicios__titulo{
+    color: #6095ca;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.servicios__especializaciones{
+    text-align: center;
+    text-decoration: none;
+    color: #610f0f;
+    list-style: none;
+}
+.servicios__especializaciones li{
+    padding-bottom: 10px;
 }
 .ubicacion{
     color: #6095ca;
     text-align: center;
+    padding: 20px;
+    margin: 20px;
+    padding-left: 0;
+    margin-left: 0;
 }
-#footer{
-    background-color: #6095ca;    
+.ubicacion__titulo{
+    padding-bottom: 20px;
+}
+.ubicacion__iframe{
+    width: 420px;
+    height: auto;
+}
+/*legislacion*/
+.mainLegislacion{
+    padding: 30px;
+    margin: 30px;
+}
+.mainLegislacion__tituloPrincipal{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #6095ca;
+}
+.mainLegislacion__leyes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mainLegislacion__tituloSeguridad{
+    color: #610f0f;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.mainLegislacion__tituloSeguridad__lista{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.mainLegislacion__tituloSeguridad__lista li{
+    list-style: none;
+    padding-bottom: 5px;
+    background-color: #6095ca;
+    text-align: center;
+}
+.mainLegislacion__tituloAmbiente{
+    color: #610f0f;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.mainLegislacion__tituloAmbiente__lista {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.mainLegislacion__tituloAmbiente__lista li{
+    list-style: none;
+    padding-bottom: 5px;
+    background-color: #6095ca;
+    text-align: center;
+}
+/*servicios*/
+.todosLosServicios{
+    text-align: center;
+    color: #6095ca;
+    padding: 30px;
+    margin: 30px;
+    border: #000000 solid 3px;
+}
+.industria{
+    margin: 15px;
+    padding: 15px;
+}
+.industria__titulo{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #610f0f;
+}
+.industria__titulo__parrafo{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.industria__titulo__parrafo__lista{
+    padding: 5px;
+}
+.industria__titulo__parrafo__lista li{
+    font-size: large;
+    padding-bottom: 5px;
+}
+.construccion{
+    margin: 15px;
+    padding: 15px;
+}
+.construccion__titulo{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #610f0f;
+}
+.construccion__titulo__parrafo{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.construccion__titulo__parrafo__lista{
+    padding: 5px;
+}
+.construccion__titulo__parrafo__lista li{
+    font-size: large;
+    padding-bottom: 5px;
+}
+.consultoriaAmbiental{
+    margin: 15px;
+    padding: 15px;
+}
+.consultoriaAmbiental__titulo{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #610f0f;
+}
+.consultoriaAmbiental__titulo__parrafo{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.consultoriaAmbiental__titulo__parrafo__lista{
+    padding: 5px;
+}
+.consultoriaAmbiental__titulo__parrafo__lista li{
+    font-size: large;
+    padding-bottom: 5px;
+}
+.capacitacion{
+    margin: 15px;
+    padding: 15px;
+}
+.capacitacion__titulo{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #610f0f;
+}
+.capacitacion__titulo__parrafo{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.capacitacion__titulo__parrafo__lista{
+    padding: 5px;
+}
+.capacitacion__titulo__parrafo__lista li{
+    font-size: large;
+    padding-bottom: 5px;
+}
+.mediciones{
+    margin: 15px;
+    padding: 15px;
+}
+.mediciones__tituloPrincipal{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #610f0f;
+}
+.mediciones__queSonTitulo{
+    color: #006400;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: #000000 solid 1px;
+    text-align: center;
+}
+.mediciones__queSonParrafo{
+    padding: 15px;
+}
+.mediciones__cualesSonTitulo{
+    color: #006400;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: #000000 solid 1px;
+    text-align: center;
+}
+.mediciones__cualesSonParrafo{
+    padding: 15px;
+}
+.mediciones__cualesSon__lista{
+    padding: 5px;
+}
+.mediciones__cualesSon__lista li{
+    font-size: large;
+    padding-bottom: 5px;
+}
+/*clientes*/
+.mainClientes{
+    margin: 20px;
+    padding: 20px;
+}
+.mainClientes__titulo{
+    text-align: center;
+    color: #6095ca;
+    padding: 30px;
+    margin: 30px;
+    border: #000000 double 3px;
+}
+/*contacto*/
+.mainContacto{
+    margin: 20px;
+    padding: 20px;
+}
+.mainContacto__titulo{
+    color: #6095ca;
+    margin: 20px;
+    text-align: center;
+}
+.mainContacto__titulo__parrafo{
+    margin: 10px;
+    padding: 10px;
+    color: #dc143c;
+}
+.contactoNombre{
+    margin: 5px;
+    text-align: center;
+}
+.contactoEmpresa{
+    margin: 5px;
+    text-align: center;
+}
+.contactoEmail{
+    margin: 5px;
+    text-align: center;
+}
+.contactoPassword{
+    margin: 5px;
+    text-align: center;
+}
+.contactoConsulta{
+    margin: 5px;
+    text-align: center;
+}
+.contactoEnviar{
+    text-align: center;
 }

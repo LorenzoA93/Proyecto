@@ -5,54 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav>
-                <a href="../index.html"><img src="../IMG/logo.png" alt="logo"></a>
-                <p>mail:ezeizaconsultora@gmail.com</p>
-                <p>cel:1122596387</p>
-                <ul class="menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./legislacion.html">Legislación</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./clientes.html">Clientes</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
+    <header class="header">
+        <a href="../index.html"><img src="../IMG/logo.png" alt="logo" class="header__logo"></a>
+        <div class="header__referencia">
+            <a href="#" class="header__referencia__contacto">mail:ezeizahysconsultora@gmail.com</a>
+            <a href="#" class="header__referencia__contacto">cel:1122458974</a>
+        </div>
+        <nav class="header__menu">
+                <ul class="header__menu__lista">
+                    <li class="header__menu__lista__item"><a href="../index.html">Inicio</a></li>
+                    <li class="header__menu__lista__item"><a href="./legislacion.html">Legislación</a></li>
+                    <li class="header__menu__lista__item"><a href="./servicios.html">Servicios</a></li>
+                    <li class="header__menu__lista__item"><a href="./clientes.html">Clientes</a></li>
+                    <li class="header__menu__lista__item"><a href="./contacto.html">Contacto</a></li>
                 </ul>
             </nav>
     </header>
-    <main>
-        <h1>Tipo de Servicios</h1>
-        <h2>Seguridad e Higiene para Industria</h2>
-        <p>Cada día más empresas y organismos ven los beneficios de disminuir los riesgos a la salud y seguridad de sus empleados generando lugares más seguros, al disminuir posibles situaciones de emergencia.
+    <main class="todosLosServicios">
+        <h1 class="todosLosServicios__titulo">Tipo de Servicios</h1>
+    </main>
+    <section class="industria">
+        <h2 class="industria__titulo">Seguridad e Higiene para Industria</h2>
+        <p class="industria__titulo__parrafo">Cada día más empresas y organismos ven los beneficios de disminuir los riesgos a la salud y seguridad de sus empleados generando lugares más seguros, al disminuir posibles situaciones de emergencia.
             Una óptima calidad de servicio y un asesoramiento profesional permanente son herramientas que permitirán certificar sistemas de gestión, cumplir normas legales, reducir la siniestralidad, optimizar su productividad y controlar riesgos potenciales.
             Toda empresa al reducir los riesgos de incidentes y accidentes, mejora su desempeño ya que garantiza que sus operaciones son seguras para los empleados y su entorno laboral.</p>
-        <p>El Servicio de Higiene y Seguridad en el Trabajo tiene como misión fundamental implementar la política fijada por la empresa en la materia, tendiente a determinar, promover y mantener adecuadas condiciones ambientales con el fin de mantener altos estándares de salud y seguridad en los lugares de trabajo, para poder prevenir con el desarrollo de accidentes y enfermedades profesionales, entre otros. Asimismo registrar las acciones y el desarrollo de los planes ejecutadas por este, tendientes a cumplir con dicha política. Para cumplimentar con lo anteriormente mencionado, desarrollaremos planes de gestión para cumplir con las siguientes tareas:</p>
-        <ul>
-            <li>Evaluación de riesgos por puestos de trabajo.</li>
-            <li>Redacción de procedimientos de trabajo seguro.</li>
-            <li>Confección de Relevamiento de Agentes de Riesgo (RAR) y Relevamiento General de Riesgos Laborales (RGRL) con su correspondiente presentación ante la ART.</li>
-            <li>Auditorias en materia de Higiene y Seguridad. Confección de informe de recomendaciones y seguimiento de las medidas adoptadas.</li>
-            <li>Capacitaciones en materia de higiene, seguridad y medio ambiente.</li>
-            <li>Evaluaciones ergonómicas, según Res. 886/15</li>
-            <li>Estudio de Carga de fuego, según Dec. 351/79, Anexo VII, Cap. 21</li>
-            <li>Control de equipos e instalaciones contra incendio.</li>
-            <li>Realización de medición de iluminación, según Res, 84/12 SRT</li>
-            <li>Realización de medición de NSCE (Ruido), según Res. 85/12 SRT</li>
-            <li>Realización de medición de puesta a tierra y continuidad de las masas del establecimiento según Res. 900/2015.</li>
-            <li>Realización de Estudio de Carga térmica, según Res. 295/03 SRT</li>
-            <li>Análisis de agua potable Físico-químico y Bacteriológico.</li>
-            <li>Plan de evacuación y simulacros.</li>
-        </ul>
-        <h2>Seguridad e Higiene en la Construccion</h2>
-        <p>En el servicio se brinda la asignación de un profesional responsable y un técnico de campo en seguridad e higiene, el cual será el responsable de realizar periódicamente las visitas técnicas y reportar al profesional coordinador los informes semanales en materia de prevención, seguridad y salud ocupacional. Dentro de las visitas se verificaran el estado de los materiales, herramientas, elementos de protección personal de los trabajadores, condiciones inseguras y actos inseguros, y al finalizar la recorrida se capacitará a los trabajadores con los desvíos observados.
+            <p class="industria__titulo__parrafo">El Servicio de Higiene y Seguridad en el Trabajo tiene como misión fundamental implementar la política fijada por la empresa en la materia, tendiente a determinar, promover y mantener adecuadas condiciones ambientales con el fin de mantener altos estándares de salud y seguridad en los lugares de trabajo, para poder prevenir con el desarrollo de accidentes y enfermedades profesionales, entre otros. Asimismo registrar las acciones y el desarrollo de los planes ejecutadas por este, tendientes a cumplir con dicha política. Para cumplimentar con lo anteriormente mencionado, desarrollaremos planes de gestión para cumplir con las siguientes tareas:</p>
+            <ul class="industria__titulo__parrafo__lista">
+                <li>Evaluación de riesgos por puestos de trabajo.</li>
+                <li>Redacción de procedimientos de trabajo seguro.</li>
+                <li>Confección de Relevamiento de Agentes de Riesgo (RAR) y Relevamiento General de Riesgos Laborales (RGRL) con su correspondiente presentación ante la ART.</li>
+                <li>Auditorias en materia de Higiene y Seguridad. Confección de informe de recomendaciones y seguimiento de las medidas adoptadas.</li>
+                <li>Capacitaciones en materia de higiene, seguridad y medio ambiente.</li>
+                <li>Evaluaciones ergonómicas, según Res. 886/15</li>
+                <li>Estudio de Carga de fuego, según Dec. 351/79, Anexo VII, Cap. 21</li>
+                <li>Control de equipos e instalaciones contra incendio.</li>
+                <li>Realización de medición de iluminación, según Res, 84/12 SRT</li>
+                <li>Realización de medición de NSCE (Ruido), según Res. 85/12 SRT</li>
+                <li>Realización de medición de puesta a tierra y continuidad de las masas del establecimiento según Res. 900/2015.</li>
+                <li>Realización de Estudio de Carga térmica, según Res. 295/03 SRT</li>
+                <li>Análisis de agua potable Físico-químico y Bacteriológico.</li>
+                <li>Plan de evacuación y simulacros.</li>
+            </ul>
+        </section>
+        <section class="construccion">
+        <h2 class="construccion__titulo">Seguridad e Higiene en la Construccion</h2>
+        <p class="construccion__titulo__parrafo">En el servicio se brinda la asignación de un profesional responsable y un técnico de campo en seguridad e higiene, el cual será el responsable de realizar periódicamente las visitas técnicas y reportar al profesional coordinador los informes semanales en materia de prevención, seguridad y salud ocupacional. Dentro de las visitas se verificaran el estado de los materiales, herramientas, elementos de protección personal de los trabajadores, condiciones inseguras y actos inseguros, y al finalizar la recorrida se capacitará a los trabajadores con los desvíos observados.
             El profesional a carga del servicio tendrá la obligación de asistir a las reuniones del comité de seguridad y salud ocupacional juntos con los encargados de las empresas contratistas para analizar las observaciones realizadas en las recorridas en obra. El objetivo de estas reuniones es cumplir en materia de Seguridad e Higiene, lograr detectar desvíos, mejorar las condiciones de prevención, seguridad y salud para evitar daños a los trabajadores y a los bienes materiales.
             La organización en materia de higiene y seguridad en una obra dependerá del tamaño de proyecto. En base a esto se deberán llevar registros de seguridad y salud ocupacional donde se identifiquen los riesgos y su respectiva prevención para evitar el daño.
-            La política de seguridad es una herramienta beneficiosa a la hora de determinar requisitos. En dicho documento la empresa establece las normas de seguridad y salud ocupacional que se propone alcanzar y cada contratista deberá trabajar bajo las mismas para favorecer a prevenir accidentes.
+        </p>
+        <p class="construccion__titulo__parrafo">La política de seguridad es una herramienta beneficiosa a la hora de determinar requisitos. En dicho documento la empresa establece las normas de seguridad y salud ocupacional que se propone alcanzar y cada contratista deberá trabajar bajo las mismas para favorecer a prevenir accidentes.
             Las empresas contratistas deberán estar trabajando bajo ciertas responsabilidades, deberes y medidas de seguridad que impondrá el contratista principal. Dichas medidas son de documentación, selección de herramientas aptas para el trabajo, verificación de materiales y cada equipo de trabajo, deberá estar capacitado y cumplir con las normas mínimas de seguridad para velar por la seguridad de los trabajadores.
             De acuerdo a la magnitud del proyecto, Ezeiza Consultora ofrece dentro de su Gestión de Higiene y Seguridad de Obras:
             </p>
-            <ul>
+            <ul class="construccion__titulo__parrafo__lista">
                 <li>Confección de Programas de seguridad según Resolución 51/97, 35/98 , 319/99 y normativa complementaria. Gestión y seguimiento ante la ART para su aprobación.</li>
                 <li>Elaboración de aviso de obra. Res. SRT 552/01.</li>
                 <li>Asistencia a obra de un profesional habilitado y matriculado.</li>
@@ -63,14 +72,16 @@
                 <li>Investigación de accidentes.</li>
                 <li>Desarrollo de normas y procedimientos de trabajo.</li>
             </ul>
-        <h2>Asesoramiento en consultoría ambiental</h2>
-        <p>Nuestros servicios de consultoría ambiental comprenden un asesoramiento en proyectos especializado e integrado para empresas o entidades públicas mediante la evaluación de los requerimientos necesarios. Este servicio se compone de gran variedad de temáticas, las cuales pueden ser la legislación ambiental, implantación de sistemas de gestión ambiental, evaluación de trámites y gestoría, y elaboración de estudios de impacto ambiental en las empresas.
+        </section>
+        <section class="consultoriaAmbiental">
+        <h2 class="consultoriaAmbiental__titulo">Asesoramiento en consultoría ambiental</h2>
+        <p class="consultoriaAmbiental__titulo__parrafo">Nuestros servicios de consultoría ambiental comprenden un asesoramiento en proyectos especializado e integrado para empresas o entidades públicas mediante la evaluación de los requerimientos necesarios. Este servicio se compone de gran variedad de temáticas, las cuales pueden ser la legislación ambiental, implantación de sistemas de gestión ambiental, evaluación de trámites y gestoría, y elaboración de estudios de impacto ambiental en las empresas.
             Somos una empresa con una gran trayectoria y experiencia comprobada con el fin de brindar las soluciones necesarias de acuerdo a la actividad requerida. Contamos con un excelente equipo de trabajo para atender las inquietudes y necesidades de nuestros clientes. Con el fin de mantener un alto nivel de asesoría en medio ambiente, realizamos el estudio necesario cumpliendo con nuestra legislación vigente.
             Con el objetivo claro de poder concientizar sobre los temas derivados para el cuidado de nuestro ambiente y sobre lo importante de cumplir con los requerimientos ambientales para juntos poder llegar a conseguir una cultura de trabajo de elite.
             Brindamos soluciones legales y técnicas en base a los requisitos legales vigentes. Desarrollamos una metodología de trabajo donde proponemos soluciones ambientales y estrategias con asesoramiento profesional. Trabajamos para llevar cabo los objetivos de nuestros clientes y acompañarlos en el desarrollo productivo, sin intervenir en el medio ambiente y previniendo el daño al ecosistema.</p>
             <p>Nuestro servicio abarca estudios ambientales tanto para la industria como para el rubro agrario, buscando cumplir con el marco normativo legal a nivel nacional, provincial y municipal. Nuestro equipo de trabajo brinda un asesoramiento que tiene como finalidad eliminar o minimizar los riesgos al medio ambiente, incentivando la reducción de los residuos que produce el establecimiento como parte de su producción.
                 Ezeiza Consultora ofrece un servicio integral con el fin de ajustarse a la necesidad de las empresas, proporcionando una efectiva y eficaz consultoría en Medio Ambiente, ingeniería ambiental, gestión, servicios y estudios ambientales. Nuestros proyectos, experiencias y conocimientos son de vital importancia para acompañar a nuestros clientes en el desarrollo y cumplimiento legal de los siguientes requisitos:</p>
-                <ul>
+                <ul class="consultoriaAmbiental__titulo__parrafo__lista">
                     <li>Categorización y recategorización de industrias.</li>
                     <li>Estudio de impacto ambiental.</li>
                     <li>Auditorias e Informes ambientales.</li>
@@ -82,10 +93,12 @@
                     <li>Transporte y manejo de residuos.</li>
                     <li>Preparación de Manuales Ambientales.</li>
                 </ul>
-        <h2>Formación y capacitación</h2>
-            <p>Nuestro plantel cuenta con profesionales altamente especializados en temas específicos y con formación docente en distintos niveles.
+        </section>
+        <section class="capacitacion">
+        <h2 class="capacitacion__titulo">Formación y capacitación</h2>
+            <p class="capacitacion__titulo__parrafo">Nuestro plantel cuenta con profesionales altamente especializados en temas específicos y con formación docente en distintos niveles.
             Para su tranquilidad y la de sus trabajadores, Nuestro Servicio le permite cumplir con la legislación, capacitando a los empleados de todas las áreas y niveles de su empresa, de acuerdo a las características, tareas y riesgos de cada sector laboral.</p>
-            <ul>
+            <ul class="capacitacion__titulo__parrafo__lista">
                 <li>Prevención y extinción de incendios.</li>
                 <li>Formación de brigadas de incendios.</li>
                 <li>Simulacros de evacuación.</li>
@@ -104,13 +117,15 @@
                 <li>Procedimientos de trabajo seguro.</li>
                 <li>Riesgos generales y específicos de la actividad.</li>
             </ul>
-        <h2>Medición y Análisis ambiental en puestos y áreas de trabajo</h2>
-        <h3>¿Qué son las mediciones laborales y ambientales?</h3>
-        <p>En Higiene y Seguridad el concepto de MEDICION está relacionado a la acción de lograr “medir”, con la finalidad de comparar si el “patrón - resultado” obtenido se encuentra dentro de los parámetros establecidos por la Ley de Higiene y Seguridad (19.587 – Dec 351/79) y sus resoluciones aplicables (Res. 295/03 Anexo I) a las actividades de trabajo donde las personas realizan sus tareas, como así también al entorno medio ambiental cercano.
+        </section>
+        <section class="mediciones">
+        <h2 class="mediciones__tituloPrincipal">Medición y Análisis ambiental en puestos y áreas de trabajo</h2>
+        <h3 class="mediciones__queSonTitulo">¿Qué son las mediciones laborales y ambientales?</h3>
+        <p class="mediciones__queSonParrafo">En Higiene y Seguridad el concepto de MEDICION está relacionado a la acción de lograr “medir”, con la finalidad de comparar si el “patrón - resultado” obtenido se encuentra dentro de los parámetros establecidos por la Ley de Higiene y Seguridad (19.587 – Dec 351/79) y sus resoluciones aplicables (Res. 295/03 Anexo I) a las actividades de trabajo donde las personas realizan sus tareas, como así también al entorno medio ambiental cercano.
             En toda empresa existen actividades laborales, las cuales presentan diversos riesgos asociados que deben ser identificados, vigilados y monitoreados periódicamente, y es ahí donde se deben realizar los monitoreos y las mediciones necesarias para determinar si, a causa de las actividades de trabajo, existe exposición a agentes de riesgos (RAR) que puedan afectar la seguridad y salud ocupacional de las personas y su entorno ambiental.</p>
-        <h3>¿En qué consiste el servicio de mediciones laborales y ambientales que brinda nuestra consultora?</h3>
-        <p>Ezeiza Consultora, conjuntamente con empresas y profesionales asociados, brinda el servicio de mediciones ambientales y de puestos de trabajo para que su empresa o industria cumpla con los estándares establecidos.</p>
-        <ul>
+        <h3 class="mediciones__cualesSonTitulo">¿En qué consiste el servicio de mediciones laborales y ambientales que brinda nuestra consultora?</h3>
+        <p class="mediciones__cualesSonParrafo">Ezeiza Consultora, conjuntamente con empresas y profesionales asociados, brinda el servicio de mediciones ambientales y de puestos de trabajo para que su empresa o industria cumpla con los estándares establecidos.</p>
+        <ul class="mediciones__cualesSon__lista">
             <li>Toma de muestra para la realización del análisis bacteriológico del agua, realizado por laboratorio habilitado.</li>
             <li>Toma de muestra para la realización del análisis físico químico del agua, realizado por laboratorio habilitado.</li>
             <li>Medición y confección de mapa de ruidos de acuerdo a la Res. SRT 85/12.</li>
@@ -124,16 +139,29 @@
             <li>Medición de espesores.</li>
             <li>Proyectos de instalaciones antiexplosivos.</li>
         </ul>
-</main>
-    <footer>
-        <div class="redes">
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
-        </div>
-        <div class="copyrigth">
-            <p>© Todos los derechos reservados</p>
-        </div>
-    </footer>
+        </section>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-primary expand-lg container-fluid">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-light">&copy; Todos los derechos reservados</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg></a></li>
+              </ul>
+            </footer>
+          </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
