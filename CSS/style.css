@@ -42,7 +42,19 @@
     background-color: #7faad4;
 }
 .footer{
-    background-color: #6095ca;    
+    background: linear-gradient(#ffffff,#0d6efd 80%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+}
+.linkeado{
+    color: #000000;
+}
+@media (max-width:480px){
+    .footer{
+        flex-direction: column;
+    }
 }
 /* index */
 .diagrama{
@@ -115,8 +127,8 @@ height: auto;
     padding-bottom: 20px;
 }
 .ubicacion__iframe{
-    width: 420px;
-    height: auto;
+    width: 80%;
+    height: 500px;
 }
 /*legislacion*/
 .mainLegislacion{
@@ -306,6 +318,21 @@ height: auto;
     padding: 30px;
     margin: 30px;
     border: #000000 double 3px;
+}
+.mainClientes__conjunto{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    max-width: 100%;
+}
+@media (max-width:800px){
+    .mainClientes__conjunto{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.mainClientes__img{
+    width: 150px;
+    height: 150px;
 }
 /*contacto*/
 .mainContacto{
