@@ -44,7 +44,7 @@
 .footer{
     background: linear-gradient(#ffffff,#0d6efd 80%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     width: 100vw;
 }
@@ -54,6 +54,9 @@
 @media (max-width:480px){
     .footer{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 }
 /* index */
