@@ -1,0 +1,8 @@
+.construccion{
+    background-color: $colorConstruccion;
+    background: linear-gradient(#ffffff, $colorConstruccion, #ffffff);
+    .construccion__titulo{
+    color: $tituloTerciario;
+    border: 2px solid $tituloTerciario;
+    }
+}

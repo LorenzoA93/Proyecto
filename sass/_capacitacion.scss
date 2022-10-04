@@ -1,0 +1,8 @@
+.capacitacion{
+    background-color: $colorConstruccion;
+    background: linear-gradient(#ffffff, #923003, #ffffff);
+    .capacitacion__titulo{
+    color: $tituloPrincipal;
+    border: 2px solid $tituloPrincipal;
+    }
+}

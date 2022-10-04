@@ -1,4 +1,9 @@
-.industria__titulo{
-    color: $colorTitulos;
-    background: $colorBackground;
+.industria{
+    color: #000000;
+    background-color: $colorIndustria;
+    background: linear-gradient(white, $colorIndustria, white);
+    .industria__titulo{
+    color: $tituloSecundario;
+    border: 2px solid $tituloSecundario;
+    }
 }

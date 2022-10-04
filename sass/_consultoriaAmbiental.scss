@@ -1,0 +1,8 @@
+.consultoriaAmbiental{
+    background-color: $colorConstruccion;
+    background: linear-gradient(#ffffff, #0095a0, #ffffff);
+    .consultoriaAmbiental__titulo{
+    color: $colorAmbiente;
+    border: 2px solid $colorAmbiente;
+    }
+}

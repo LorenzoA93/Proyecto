@@ -1,0 +1,22 @@
+.mediciones{
+    .&__tituloPrincipal{
+    color: $tituloTerciario
+    }
+    .&__queSonTitulo{
+    border-radius: 25px
+    }
+    .&__cualesSonTitulo{
+
+    }
+
+    .&--flex{
+    @include medicionEstandard;
+    grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 768px) {
+    .&--flex{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+}

@@ -1,1 +1,66 @@
-/*# sourceMappingURL=servicios.css.map */
+/*color background*/
+/*color Titulos*/
+/* mixins */
+@media (max-width: 768px) {
+  .mediciones--flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.industria__titulo {
+  color: #059292;
+  border: 2px solid #059292;
+}
+
+.industria {
+  color: #000000;
+  background-color: #0a0092;
+  background: linear-gradient(white, #0a0092, white);
+}
+
+.construccion__titulo {
+  color: #202c2c;
+  border: 2px solid #202c2c;
+}
+
+.construccion {
+  background-color: #505050;
+  background: linear-gradient(#ffffff, #505050, #ffffff);
+}
+
+.mediciones__tituloPrincipal {
+  color: #202c2c;
+}
+
+.mediciones__queSonTitulo {
+  border-radius: 25px;
+}
+
+.mediciones__cualesSonTitulo {
+  border-radius: 25px;
+}
+
+.mediciones--flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.capacitacion__titulo {
+  color: #ca0404;
+  border: 2px solid #ca0404;
+}
+
+.capacitacion {
+  background-color: #505050;
+  background: linear-gradient(#ffffff, #923003, #ffffff);
+}
+
+.consultoriaAmbiental__titulo {
+  color: #009218;
+  border: 2px solid #009218;
+}
+
+.consultoriaAmbiental {
+  background-color: #505050;
+  background: linear-gradient(#ffffff, #0095a0, #ffffff);
+}/*# sourceMappingURL=servicios.css.map */
