@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../sass/servicios.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-info">
@@ -43,7 +44,7 @@
     <main class="todosLosServicios">
         <h1 class="todosLosServicios__titulo">Tipo de Servicios</h1>
     </main>
-    <section class="industria">
+    <section class="industria" data-aos="fade-right">
         <h2 class="industria__titulo">Seguridad e Higiene para Industria</h2>
         <p class="industria__titulo__parrafo">Cada día más empresas y organismos ven los beneficios de disminuir los riesgos a la salud y seguridad de sus empleados generando lugares más seguros, al disminuir posibles situaciones de emergencia.
             Una óptima calidad de servicio y un asesoramiento profesional permanente son herramientas que permitirán certificar sistemas de gestión, cumplir normas legales, reducir la siniestralidad, optimizar su <strong>productividad</strong> y controlar riesgos potenciales.
@@ -65,8 +66,8 @@
                 <li>Análisis de agua potable Físico-químico y Bacteriológico.</li>
                 <li>Plan de evacuación y simulacros.</li>
             </ul>
-        </section>
-        <section class="construccion">
+      </section>
+        <section class="construccion" data-aos="fade-left">
         <h2 class="construccion__titulo">Seguridad e Higiene en la Construccion</h2>
         <p class="construccion__titulo__parrafo">En el servicio se brinda la asignación de un profesional responsable y un técnico de campo en seguridad e higiene, el cual será el responsable de realizar periódicamente las visitas técnicas y reportar al profesional coordinador los informes semanales en materia de prevención, seguridad y salud ocupacional. Dentro de las visitas se verificaran el estado de los materiales, herramientas, elementos de protección personal de los trabajadores, condiciones inseguras y actos inseguros, y al finalizar la recorrida se capacitará a los trabajadores con los desvíos observados.
             El profesional a cargo del servicio tendrá la obligación de asistir a las reuniones del comité de seguridad y salud ocupacional juntos con los encargados de las empresas contratistas para analizar las observaciones realizadas en las recorridas en obra. El objetivo de estas reuniones es cumplir en materia de Seguridad e Higiene, lograr detectar desvíos, mejorar las condiciones de prevención, seguridad y salud para evitar daños a los trabajadores y a los bienes materiales.
@@ -88,7 +89,7 @@
                 <li>Desarrollo de normas y procedimientos de trabajo.</li>
             </ul>
         </section>
-        <section class="consultoriaAmbiental">
+        <section class="consultoriaAmbiental" data-aos="fade-up">
         <h2 class="consultoriaAmbiental__titulo"><strong>Asesoramiento</strong> en consultoría ambiental</h2>
         <p class="consultoriaAmbiental__titulo__parrafo">Nuestros servicios de consultoría ambiental comprenden un asesoramiento en proyectos especializado e integrado para empresas o entidades públicas mediante la evaluación de los requerimientos necesarios. Este servicio se compone de gran variedad de temáticas, las cuales pueden ser la legislación ambiental, implantación de sistemas de gestión ambiental, evaluación de trámites y gestoría, y elaboración de estudios de impacto ambiental en las empresas.
             Somos una empresa con una gran trayectoria y experiencia comprobada con el fin de brindar las soluciones necesarias de acuerdo a la actividad requerida. Contamos con un excelente equipo de trabajo para atender las inquietudes y necesidades de nuestros clientes. Con el fin de mantener un alto nivel de asesoría en medio ambiente, realizamos el estudio necesario cumpliendo con nuestra legislación vigente.
@@ -109,7 +110,7 @@
                     <li>Preparación de Manuales Ambientales.</li>
                 </ul>
         </section>
-        <section class="capacitacion">
+        <section class="capacitacion" data-aos="fade-down">
         <h2 class="capacitacion__titulo">Formación y capacitación</h2>
             <p class="capacitacion__titulo__parrafo">Nuestro plantel cuenta con profesionales altamente especializados en temas específicos y con formación docente en distintos niveles.
             Para su tranquilidad y la de sus trabajadores, Nuestro Servicio le permite cumplir con la legislación, capacitando a los empleados de todas las áreas y niveles de su empresa, de acuerdo a las características, tareas y riesgos de cada sector laboral.</p>
@@ -169,6 +170,12 @@
               <a href="#" class="linkeado">Instagram</a>
             </div>
           </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration:1000
+       });
+  </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

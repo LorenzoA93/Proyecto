@@ -210,6 +210,9 @@ height: auto;
     font-size: large;
     padding-bottom: 5px;
 }
+.industria__imagen{
+    display: grid;
+}
 .construccion{
     margin: 15px;
     padding: 15px;
@@ -375,3 +378,4 @@ height: auto;
 .contactoEnviar{
     text-align: center;
 }
+
